@@ -22,9 +22,9 @@ La configuration centralisée est gérée via un Config Server qui lit les fichi
 
 1. **Démarrer Kafka et Keycloak** via Docker Compose :
 
-```bash
+
 docker-compose -f kafka-compose.yml -f keycloak-compose.yml up --build
---
+---
 
 
 2. **Accès aux interfaces graphiques
