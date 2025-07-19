@@ -33,7 +33,7 @@ docker-compose -f kafka-compose.yml -f keycloak-compose.yml up --build
 | -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------ |
 | Eureka Dashboard     | [http://localhost:8095/](http://localhost:8095/)                               | Tableau de bord de découverte              |
 | Keycloak Admin       | [http://localhost:8093/](http://localhost:8093/)                               | Gestion des utilisateurs et clients OAuth2 |
-| Config Server        | [http://localhost:8096/](http://localhost:8096/)                               | Interface config server (REST API)         |
+| Config Server        | [http://localhost:8096/](http://localhost:8096/MS_Client/default)              | Interface config server (REST API)         |
 | MongoDB Compass      | (Application locale)                                                           | GUI pour MongoDB                           |
 | MySQL Workbench      | (Application locale)                                                           | GUI pour MySQL                             |
 | Swagger MS_Client    | [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) | Documentation API du microservice Client   |
