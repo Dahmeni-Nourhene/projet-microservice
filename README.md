@@ -24,9 +24,10 @@ La configuration centralisée est gérée via un Config Server qui lit les fichi
 
 ```bash
 docker-compose -f kafka-compose.yml -f keycloak-compose.yml up --build
+--
 
 
-Accès aux interfaces graphiques
+2. **Accès aux interfaces graphiques
 | Service              | URL                                                                            | Description                                |
 | -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------ |
 | Eureka Dashboard     | [http://localhost:8095/](http://localhost:8095/)                               | Tableau de bord de découverte              |
