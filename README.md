@@ -1,3 +1,4 @@
+
 # Projet Microservice - Documentation
 
 Ce projet contient plusieurs microservices développés avec Spring Boot, orchestrés via Eureka, Kafka, et sécurisés avec Keycloak.  
@@ -22,12 +23,12 @@ La configuration centralisée est gérée via un Config Server qui lit les fichi
 
 1. **Démarrer Kafka et Keycloak** via Docker Compose :
 
-
+```bash
 docker-compose -f kafka-compose.yml -f keycloak-compose.yml up --build
----
+```
 
+2. **Accès aux interfaces graphiques**
 
-2. **Accès aux interfaces graphiques
 | Service              | URL                                                                            | Description                                |
 | -------------------- | ------------------------------------------------------------------------------ | ------------------------------------------ |
 | Eureka Dashboard     | [http://localhost:8095/](http://localhost:8095/)                               | Tableau de bord de découverte              |
@@ -35,5 +36,5 @@ docker-compose -f kafka-compose.yml -f keycloak-compose.yml up --build
 | Config Server        | [http://localhost:8096/](http://localhost:8096/)                               | Interface config server (REST API)         |
 | MongoDB Compass      | (Application locale)                                                           | GUI pour MongoDB                           |
 | MySQL Workbench      | (Application locale)                                                           | GUI pour MySQL                             |
-| Swagger MS\_Client   | [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) | Documentation API du microservice Client   |
-| Swagger MS\_Commande | [http://localhost:8082/swagger-ui.html](http://localhost:8082/swagger-ui.html) | Documentation API du microservice Commande |
+| Swagger MS_Client    | [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) | Documentation API du microservice Client   |
+| Swagger MS_Commande  | [http://localhost:8082/swagger-ui.html](http://localhost:8082/swagger-ui.html) | Documentation API du microservice Commande |
